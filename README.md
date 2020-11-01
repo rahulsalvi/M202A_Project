@@ -15,3 +15,14 @@ the connection will obviously drop. A form of *delay-tolerant networking* will
 be implemented to handle connection issues. The data logger will recognize that
 the connection has been dropped and wait until it is re-established. At this
 point, it can stream data that was missed back to the host.
+
+## Timeline
+ - Week 6: Begin hardware prototype.
+ - Week 7: Ability to send and receive CAN messages.
+ - Week 8: Serial protocol between Raspberry Pi and MCU working
+ - Week 9: Working wireless connectivity and data visualization without delay
+   tolerance
+ - Week 10: Working delay tolerance system
+
+## System Architecture
+![](architecture.png)
