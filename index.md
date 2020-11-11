@@ -1,37 +1,31 @@
-## Welcome to GitHub Pages
+## M202A Project
 
-You can use the [editor on GitHub](https://github.com/rahulsalvi/M202A_Project/edit/gh-pages/index.md) to maintain and preview the content for your website in Markdown files.
+Motivated by work creating racecars for the Formula SAE student competition, I
+want to develop a data logging system that can be used onboard a vehicle. The
+system will monitor the vehicle's CANbus and log messages to non-volatile
+storage for later consumption. In practice, realtime telemetry is often useful
+for quickly diagnosing issues on the racecar. To facilitate this, a host
+application running on a ordinary laptop will be created. The application will
+establish a wireless connection (either bluetooth or WiFi) to the data logger
+to stream and visualize data immediately. During testing, the vehicle passes
+through a course much larger than the range of a bluetooth or WiFi network, so
+the connection will obviously drop. A form of *delay-tolerant networking* will
+be implemented to handle connection issues. The data logger will recognize that
+the connection has been dropped and wait until it is re-established. At this
+point, it can stream data that was missed back to the host.
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+### Technical Approach
 
-### Markdown
+### Implementation and Results
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+### Prior Work
 
-```markdown
-Syntax highlighted code block
+### Strengths and Weaknesses
 
-# Header 1
-## Header 2
-### Header 3
+### Contributions
 
-- Bulleted
-- List
+I did everything.
 
-1. Numbered
-2. List
+### Links
 
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
-```
-
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/rahulsalvi/M202A_Project/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
+### References
