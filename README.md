@@ -1,4 +1,13 @@
-# M202A Project
+# M202A Project (Formula SAE Datalogger)
+
+This repo contains the report and code for my M202A project. It is important to
+clone all of the submodules as well
+
+```bash
+$ git clone https://github.com/rahulsalvi/M202A_Project.git
+$ cd M202A_Project
+$ git submodule update --init --recursive
+```
 
 ## Proposal
 
@@ -23,6 +32,3 @@ point, it can stream data that was missed back to the host.
  - Week 9: Working wireless connectivity and data visualization without delay
    tolerance
  - Week 10: Working delay tolerance system
-
-## System Architecture
-![](architecture.png)

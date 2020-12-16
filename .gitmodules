@@ -1,0 +1,9 @@
+[submodule "m202a_project_rpi"]
+	path = m202a_project_rpi
+	url = https://github.com/rahulsalvi/m202a_project_rpi.git
+[submodule "mock_ecu"]
+	path = mock_ecu
+	url = https://github.com/rahulsalvi/mock_ecu.git
+[submodule "m202a_project_stm32"]
+	path = m202a_project_stm32
+	url = https://github.com/rahulsalvi/m202a_project_stm32.git
