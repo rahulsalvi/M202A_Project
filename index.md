@@ -38,7 +38,7 @@ point, it can stream data that was missed back to the host.
 
 ##### Explanation
 
-RAHUL: PICTURE OF HARDWARE
+![](hardware.png)
 
 The hardware for the datalogger itself consists of a Raspberry Pi 3 paired with
 an STM32 Nucleo F439ZI microcontroller board. The Nucleo board was chosen for
@@ -114,7 +114,9 @@ disconnected, it ignore received messages and does not send any responses.
 
 #### System Integration
 
-RAHUL: DIAGRAM HERE OF SYSTEM ARCHITECTURE
+![](system-architecture.png)
+
+The above diagram shows the seperate hardware modules and how they communicate.
 
 ##### AEMnet
 
@@ -192,8 +194,6 @@ groups I send the first packet first (41, 50, ...), followed by the last (49, 58
 within the group. By doing this, first "low resolution" data is sent, but more
 data points are added to fill in the gaps giving a better idea of what the
 vehicle was doing.
-
-### Implementation and Results
 
 ### Prior Work
 
