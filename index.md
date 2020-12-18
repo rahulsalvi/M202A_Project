@@ -101,15 +101,16 @@ at a rate of 2 Hz, which is enough for analysis and saves on storage space.
 
 ##### Visualization
 
-RAHUL: SCREENSHOT FROM VISUALIZER APPLICATION
+![](visualizer-screenshot.png)
 
-For visualization, I chose to also write the application in Python, making heavy
-use of a plotting library called Bokeh. As a proof of concept, I chose to only
-plot the engine RPM. Given that the mock ECU only sends interesting values for
-RPM, it works well enough. Since constantly disconnecting and reconnecting
-devices to test the delay tolerance was tedious, I added a simple switch to
-control whether the visualizer should act like it is connected or not. When
-disconnected, it ignore received messages and does not send any responses.
+For visualization, I chose to also write the application in Python, making
+heavy use of a plotting library called Bokeh. The screenshot above shows the
+application in action As a proof of concept, I chose to only plot the engine
+RPM. Given that the mock ECU only sends interesting values for RPM, it works
+well enough. Since constantly disconnecting and reconnecting devices to test
+the delay tolerance was tedious, I added a simple switch to control whether the
+visualizer should act like it is connected or not. When disconnected, it ignore
+received messages and does not send any responses.
 
 #### System Integration
 
