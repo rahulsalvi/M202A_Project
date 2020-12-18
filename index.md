@@ -203,7 +203,7 @@ is on a budget, so existing solutions which cost a significant amount are off
 the table. For this reason, developing an in-house datalogger is a valuable use
 of time. The wireless connectivity and delay-tolerant networking scheme are
 novel. I have not seen an integrated solution for this, although I'm sure that
-something exists for actual car manufacturer to use.
+something exists for actual car manufacturers to use.
 
 ### Strengths and Weaknesses
 
