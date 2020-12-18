@@ -3,6 +3,9 @@
 This repo contains the report and code for my M202A project. It is important to
 clone all of the submodules as well
 
+ - [Project Report](https://rahulsalvi.github.io/M202A_Project/)
+ - [Project Presentation](https://www.youtube.com/watch?v=Euvlaq-4Kus&feature=youtu.be)
+
 ```bash
 $ git clone https://github.com/rahulsalvi/M202A_Project.git
 $ cd M202A_Project
