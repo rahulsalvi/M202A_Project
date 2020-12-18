@@ -5,8 +5,7 @@
 - [Project Repo](https://github.com/rahulsalvi/M202A_Project) - follow the
   README for instructions on cloning and potentially building (although running
   will require the same hardware which I have)
-
-RAHUL: LINK TO PROJECT VIDEO
+- [Project Presentation](https://www.youtube.com/watch?v=Euvlaq-4Kus&feature=youtu.be)
 
 ### Motivation
 
